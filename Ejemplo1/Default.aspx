@@ -1,7 +1,18 @@
 ﻿<%@ Page Title="Portfolio Sofía Grosclaude" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Ejemplo1._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    
+    <style>
+        .col-md-4{
+            padding-top: 1%;
+             padding-bottom: 5%;
+             background-color: black;
+             color:white;
+        }
+        .carrousel{
+            padding-bottom: 10%;
+        }
+      
+    </style>
     <main>
        
         <section class="row" aria-labelledby="aspnetTitle">
@@ -32,7 +43,7 @@
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="Resources/Portfolio personal.png" class="d-block w-50" alt="...">
+                      <img src="Resources/Portofolio personal.png" class="d-block w-50" alt="...">
                       <div class="carousel-caption d-none d-md-block">
                         <h5 class="titulofoto">Portfolio Personal</h5>
                         <p class="descripcionfoto">Version Web y ASP .NET</p>
@@ -49,8 +60,7 @@
                   </button>
                 </div>
             </div>
-           
-
+      
         <div class="row">
             <section class="col-md-4" aria-labelledby="gettingStartedTitle">
                 <h3 id="gettingStartedTitle">App de escritorio con lectura a base de datos</h3>

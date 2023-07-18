@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-4"></div>
             <div class="col">
-            <h3>Contacto!</h3>
+            <h3>Contacto</h3>
             <form action="send email" method="post">
                 <div class="mb-3">
                    <label for="txtNombre" class="form-label">Nombre:</label>

@@ -3,8 +3,52 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <main>
+    <style>
+        .table{
+            margin-top: 10%;
+        }
+    .techcontainer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 
+    .tech1 {
+        width:30%;
+        text-align: center;
+        margin: 15px;
+       /* background-color:black; */
+        padding-right:80px;
+        margin-bottom: 60px;
+        
+    }
+    .tech2 {
+        width:30%;
+        text-align: center;
+        margin: 15px;
+   /*     background-color:black; */
+        padding-right:70px;
+        margin-bottom: 60px;
+        
+    }
+
+    .techlogo {
+        width: 120px; /* Puedes ajustar el tamaño según tus necesidades */
+        height: auto;
+        margin-bottom: 10px;
+        margin-right: 0px;
+        
+    }
+    .secTech{
+        background-color:black;
+        color: white;
+        margin-top: 10%
+        
+    }
+</style>
+
+    <main>
     <section>
         <div>
             <h2>Cursos</h2>
@@ -57,22 +101,22 @@
                <div class="col-2"></div>
             </div>
           </div>
-    </section>
-    <section>
-        <h2>Tecnologías</h2>
- <%--       <div class="container">
-            <div class="tech">
-                <img src="Resources/1c.png" class="img-thumbnail" alt="Alternate Text" />
-                <img src="Resources/1d.png" class="img-thumbnail" alt="Alternate Text" />
-                <img src="Resources/1e.png" class="img-thumbnail" alt="Alternate Text" />
-            </div>
-            <div class="tech">
-                <img src="Resources/1f.png" class="img-thumbnail" alt="Alternate Text" />
-                <img src="Resources/1g.png" class="img-thumbnail" alt="Alternate Text" />
-                <img src="Resources/1h.png" class="img-thumbnail" alt="Alternate Text" />
-            </div>
-        </div>--%>
    
+    </section>
+    <section class="secTech">
+        <h2>Tecnologías</h2>
+            <div class="techcontainer">
+                <div class="tech1">
+                    <img src="Resources/1c.png" class="techlogo" alt="Alternate Text" />
+                    <img src="Resources/1d.png" class="techlogo" alt="Alternate Text" />
+                    <img src="Resources/1e.png" class="techlogo" alt="Alternate Text" />
+                </div>
+                <div class="tech2">
+                    <img src="Resources/1f.png" class="techlogo" alt="Alternate Text" />
+                    <img src="Resources/1g.png" class="techlogo" alt="Alternate Text" />
+                    <img src="Resources/1h.png" class="techlogo" alt="Alternate Text" />
+                </div>
+            </div>
 
     </section>
 
